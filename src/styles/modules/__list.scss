@@ -1,0 +1,10 @@
+.list{
+    width: 70%;
+    margin: 0 auto;
+    >.item{
+        margin: 20px 0;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
