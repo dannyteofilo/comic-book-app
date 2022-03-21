@@ -1,0 +1,15 @@
+.grid {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  >.item{
+      margin: 10px 20px;
+      &:hover{
+          cursor: pointer;
+      }
+      
+  }
+}
