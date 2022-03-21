@@ -1,6 +1,7 @@
 .grid {
   width: 70%;
   margin: 0 auto;
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -9,7 +10,20 @@
       margin: 10px 20px;
       &:hover{
           cursor: pointer;
-      }
-      
+      }      
   }
+
+  .back{
+    display: flex;
+    color: blue;
+
+    &:hover{
+        cursor: pointer;
+    }
+    >svg{
+        width: 15px;
+        margin-right: 5px;
+        fill: blue;
+    }
+}
 }

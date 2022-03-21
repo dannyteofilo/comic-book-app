@@ -16,4 +16,5 @@ export interface itemComicInterface {
   site_detail_url: string;
   store_date: string;
   volume: volumeInterface;
+  handleClick(e: any): any
 }
