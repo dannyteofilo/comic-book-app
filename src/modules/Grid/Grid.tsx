@@ -18,7 +18,6 @@ export const Grid = ({ results }: comicInterface) => {
     setIsLoading(true);
     getComicDetail(Comic).then((response) => {
       const { data } = response;
-      console.log("data detail: ", data);
       setData(data.results);
       setIsLoading(false);
     });

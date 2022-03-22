@@ -1,0 +1,18 @@
+.item-detail{
+
+    >.title{
+        text-align: left;
+    }
+    
+    >.detail{
+        border-top: 1px solid #616161;
+        display: flex;
+        flex-wrap: wrap;
+
+        >.name{
+            width: 50%;
+            text-align: left;
+            margin: 10px 0;
+        }
+    }
+}
