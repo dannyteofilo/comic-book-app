@@ -1,0 +1,40 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.header{
+    width: 100%;
+    border-bottom: 1px solid #757575;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .latest{
+        margin: 0;
+    }
+
+    >.buttons{
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+
+        span{
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .icon{
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    .selected{
+        color: #388e3c;
+        fill: #388e3c;
+    }
+}
