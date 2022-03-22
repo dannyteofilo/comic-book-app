@@ -4,7 +4,7 @@ export const getListComics = async () => {
   return await resp.json();
 };
 
-export const getComicDetail = async (api_detail: StringConstructor) => {
+export const getComicDetail = async (api_detail: string) => {
   const requestOptions = {
     method: "POST",
     headers: { "Content-Type": "application/json" },
