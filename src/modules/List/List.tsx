@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { ItemDetail } from "../../components/ItemDetail/ItemDetail";
 import { ItemList } from "../../components/ItemList/ItemList";
 import { getComicDetail } from "../../helpers/Fetch";
 import { comicInterface } from "../../interfaces/Comic";
